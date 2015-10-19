@@ -11,17 +11,17 @@ SETUP
 ------
 
 
-1. Include the convertor in your code
+**STEP 1.** Include the convertor in your code
 ```
 include 'SqliConvertor.php'; 
 ```
 
-2. Set up the connection
+**STEP 2.** Set up the connection
 ```
 $sqliConvertor = new SqliConvertor($host, $username, $password, $db_name);
 ```
 
-3. Replace all the string "mysql_" to "$sqliConvertor->" in your file. If you are using Vim, you may use the following command
+**STEP 3.** Replace all the string "mysql_" to "$sqliConvertor->" in your file. If you are using Vim, you may use the following command
 ```
 :%s/mysql_/$sqliConvertor->/g
 ```
