@@ -5,7 +5,7 @@ A simple trick to convert old depreciable mysql code to mysqli in PHP
 
 **IMPORTANT: Noted that converting mysql to mysqli doesn't enhance your system security. It is recommended to rewrite your system in a modern and security approach.**
 
-The project is unfinished. It currently doesn't include all of the function in mysql. 
+The project currently doesn't include all of the function in mysql but you may extend it by adding corresponding functions easily. 
 
 SETUP
 ------
