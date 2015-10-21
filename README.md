@@ -1,7 +1,7 @@
 MySQLi Convertor
 ===========
 
-A simple trick to convert old depreciable mysql code to mysqli in PHP
+A simple trick to convert old deprecated mysql code to mysqli in PHP
 
 **IMPORTANT: Noted that converting mysql to mysqli doesn't enhance your system security. It is recommended to rewrite your system in a modern and security approach.**
 
